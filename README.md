@@ -16,7 +16,7 @@ Ideal para servir como base de projetos backend em Go.
 
 ## 📂 Estrutura do Projeto
 
-#Go_API/
+```#Go_API/
     ├── cmd/ # Ponto de entrada da aplicação (main.go)
     ├── controller/ # Camada de controle (recebe requisições HTTP)
     ├── usecase/ # Lógica de negócio / casos de uso
@@ -28,7 +28,7 @@ Ideal para servir como base de projetos backend em Go.
     ├── go.mod # Dependências do projeto
     ├── go.sum # Verificação de dependências
     └── README.md # Documentação do projeto
-
+```
 
 ---
 

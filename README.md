@@ -16,18 +16,19 @@ Ideal para servir como base de projetos backend em Go.
 
 ## 📂 Estrutura do Projeto
 
-```#Go_API/
-    ├── cmd/ # Ponto de entrada da aplicação (main.go)
-    ├── controller/ # Camada de controle (recebe requisições HTTP)
-    ├── usecase/ # Lógica de negócio / casos de uso
-    ├── repository/ # Acesso a dados e persistência
-    ├── model/ # Estruturas de dados e modelos
-    ├── db/ # Scripts e conexão de banco de dados
-    ├── Dockerfile # Definição de imagem Docker
-    ├── docker-compose.yml # Configuração de containers
-    ├── go.mod # Dependências do projeto
-    ├── go.sum # Verificação de dependências
-    └── README.md # Documentação do projeto
+```
+#Go_API/
+        ├── cmd/ # Ponto de entrada da aplicação (main.go)
+        ├── controller/ # Camada de controle (recebe requisições HTTP)
+        ├── usecase/ # Lógica de negócio / casos de uso
+        ├── repository/ # Acesso a dados e persistência
+        ├── model/ # Estruturas de dados e modelos
+        ├── db/ # Scripts e conexão de banco de dados
+        ├── Dockerfile # Definição de imagem Docker
+        ├── docker-compose.yml # Configuração de containers
+        ├── go.mod # Dependências do projeto
+        ├── go.sum # Verificação de dependências
+        └── README.md # Documentação do projeto
 ```
 
 ---
